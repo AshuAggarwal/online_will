@@ -1,0 +1,184 @@
+.w-100 {
+    width: 100%!important;
+    height: 600px;
+}
+
+.counter
+{
+    background-color: white;
+    text-align: center;
+}
+
+.counter-count
+{
+    font-size: 18px;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.will-box__form {
+    border: 1.5px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 5px 25px 1px rgba(0, 0, 0, .06);
+    box-shadow: 0 5px 25px 1px rgba(0, 0, 0, .06);
+    padding: 25px;
+    text-align: left;
+    font-family: AvertaPE, sans-serif
+}
+
+.will-box__form .will-box__fields>* {
+    margin-bottom: 25px
+}
+
+.will-box__form .will-box__fields>:last-of-type {
+    margin-bottom: 0
+}
+
+body.single-post .will-box__form .will-box__fields .will-box__field.hidden-on-single-posts {
+    display: none
+}
+
+.will-box__form .will-box__fields label {
+    margin: 0;
+    width: 100%;
+    color: #757575;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.will-box__form .will-box__fields label.for-select {
+    font-size: 12px
+}
+
+.will-box__form .will-box__fields select {
+    margin-top: 4px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 1px;
+    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAICAIAAABGc1mbAAAAq0lEQVR42nXPQQqDMBAF0NxRcxgJggheQYkoimKu4CIEJEJWnseohbSfBmprMbs//4VhiNZ6GAbn3PP+GWOWZSHjOAZBUBTFnZZShmFY1zVBEEJAl2X5r5VScFmWHceD+FHXddD4+u2maYJL03Tfd0TyKZqmgW7b1sd5nimlSZJ490Oxvaoq6L7vcQdcHMfbtr3Lk56acw6NvYwxa62fn/Si8zyPomhd10v1AnKvF8u4RW6dAAAAAElFTkSuQmCC) calc(100% - 10px) 50% no-repeat;
+    padding: 8px 30px 8px 13px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    color: #525252
+}
+
+.will-box__form .will-box__fields select:after {
+    content: "";
+    display: block;
+    border: solid #525252;
+    border-width: 0 2px 2px 0;
+    position: absolute
+}
+
+.will-box__form .will-box__fields select::-ms-expand {
+    display: none!important
+}
+
+.will-box__form .will-box__fields input[type=checkbox] {
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 24px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: middle;
+    width: 24px;
+    min-width: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1px;
+    position: relative
+}
+
+.will-box__form .will-box__fields input[type=checkbox]:checked:after {
+    content: "";
+    position: absolute;
+    display: block;
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 8px;
+    top: 3px;
+    width: 8px;
+    height: 14px;
+    border: solid #4c84f5;
+    border-width: 0 3px 3px 0
+}
+
+.will-box__form .will-box__fields input[type=checkbox]:checked+span {
+    color: #414042
+}
+
+.will-box__form .will-box__title {
+    color: #525252;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 25px
+}
+
+.will-box__form .will-box__submit {
+    margin-top: 40px
+}
+
+.will-box__form .will-box__submit input {
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+    border: none;
+    background-color: #4c84f5;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(87, 159, 253, .1);
+    box-shadow: 0 2px 6px 0 rgba(87, 159, 253, .1);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    opacity: 1;
+    line-height: 1
+}
+
+.will-box__form .will-box__submit input[disabled] {
+    opacity: .6
+}
+
+.floating-will-box {
+    float: right;
+    width: 255px;
+    max-width: 100%;
+    margin-left: 24px;
+    margin-bottom: 24px
+}
